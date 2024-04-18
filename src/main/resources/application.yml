@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: new-employee-training
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: new-employee-training
+    url: jdbc:mysql://localhost:23306/new-employee-training
+    username: new-employee-training
+  flyway:
+    enabled: true
+  jpa:
+    database: MYSQL
+    hibernate.ddl-auto: none
+    open-in-view: false
