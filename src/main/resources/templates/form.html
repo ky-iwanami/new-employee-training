@@ -18,6 +18,15 @@
     <input type="number" th:field="*{age}"><br>
     
     <button onclick="ShowAlert()">送信</button>
+    
+    <p>氏名(前回)：</p>
+    <p th:text="*{beforeName}"></p>
+    
+    <p>E-Mail(前回)：</p>
+    <p th:text="*{beforeEmail}"></p>
+    
+    <p>年齢(前回)：</p>
+    <p th:text="*{beforeAge}"></p>
   </form>
 </body>
 </html>
